@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>NPC Zone Manager</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="app" class="hidden" aria-label="NPC zone manager">
+<header><div><strong>NPC ZONES</strong><span>Administration</span></div><button id="close" title="Close menu" aria-label="Close">×</button></header>
+<div class="layout">
+<aside><div class="section-title">ZONES <button id="newZone">+ New</button></div><div id="zoneList"></div></aside>
+<section id="editor"><div class="empty">Select a zone or create one.</div></section>
+</div>
+<footer><span>Changes apply immediately to all players.</span><span id="status"></span></footer>
+</main><script src="app.js"></script>
+</body></html>
